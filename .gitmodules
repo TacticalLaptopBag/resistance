@@ -1,15 +1,20 @@
 [submodule "resistance-civil-protection"]
 	path = resistance-civil-protection
 	url = git@github.com:TacticalLaptopBag/resistance-civil-protection.git
+	branch = main
 [submodule "resistance-scanner"]
 	path = resistance-scanner
 	url = git@github.com:TacticalLaptopBag/resistance-scanner.git
+	branch = main
 [submodule "resistance-overwatch"]
 	path = resistance-overwatch
 	url = git@github.com:TacticalLaptopBag/resistance-overwatch.git
+	branch = main
 [submodule "resistance-airwatch"]
 	path = resistance-airwatch
 	url = git@github.com:TacticalLaptopBag/resistance-airwatch.git
+	branch = main
 [submodule "resistance-cmacm"]
 	path = resistance-cmacm
 	url = git@github.com:TacticalLaptopBag/resistance-cmacm.git
+	branch = main
