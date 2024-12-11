@@ -1,5 +1,4 @@
 # Resistance
-This is a monorepo containing all divisions of Resistance.
 
 Resistance is made to help you fight against porn.
 You can add contacts, known as Squadmates, who will be notified if you are browsing the web for pornographic content.
@@ -14,6 +13,21 @@ Currently, this massive project is a work-in-progress. Priorities are:
 4. resistance-airwatch, monitoring Overwatch and ensuring it doesn't go down will be a great protective barrier
 5. resistance-cmacm, having a clean way to interface with all of this mess will land the project in beta
 6. resistance-citadel, having a user-friendly way to interface with all of this will be even better, but isn't really all that necessary. This will likely just end up being a wrapper around CMACM.
+
+## Divisions
+
+- [resistance-airwatch](https://github.com/TacticalLaptopBag/resistance-airwatch): Service to ensure Overwatch stays alive.
+- [resistance-civil-protection](https://github.com/TacticalLaptopBag/resistance-civil-protection): Binary to help manage sending emails to Squadmates.
+- [resistance-scanner](https://github.com/TacticalLaptopBag/resistance-scanner): Web browser extension to monitor activity and report to Overwatch.
+- [resistance-overwatch](https://github.com/TacticalLaptopBag/resistance-overwatch): Service to monitor web browsers and receive information from Scanners.
+- [resistance-cmacm](https://github.com/TacticalLaptopBag/resistance-cmacm): Combine Mainframe Access Command Module, a CLI interface to seamlessly interact with each of these systems.
+Something that may also come: [resistance-citadel](https://github.com/TacticalLaptopBag/resistance-citadel), which would be the GUI frontend.
+
+Yes, the names are Half-life 2 references.
+They might not really make a lot of sense (Resistance is made up of Combine things?), but they just sound cool.
+
+Currently, Divisions don't show up in this repo.
+Once I have more time to futz around with submodules, they will be here.
 
 ## Why Resistance?
 If you're on Windows or macOS, there are lots of tools to help fight porn addictions.
@@ -70,14 +84,3 @@ At the very least, a basic shell script installer will be available.
 This script would install all the necessary build dependencies, clone this repo, build the project, and then install it.
 This would make it difficult to update or remove, but it will work.
 
-## Divisions
-
-- [resistance-airwatch](https://github.com/TacticalLaptopBag/resistance-airwatch): Service to ensure Overwatch stays alive.
-- [resistance-civil-protection](https://github.com/TacticalLaptopBag/resistance-civil-protection): Binary to help manage sending emails to Squadmates.
-- [resistance-scanner](https://github.com/TacticalLaptopBag/resistance-scanner): Web browser extension to monitor activity and report to Overwatch.
-- [resistance-overwatch](https://github.com/TacticalLaptopBag/resistance-overwatch): Service to monitor web browsers and receive information from Scanners.
-- [resistance-cmacm](https://github.com/TacticalLaptopBag/resistance-cmacm): Combine Mainframe Access Command Module, a CLI interface to seamlessly interact with each of these systems.
-Something that may also come: [resistance-citadel](https://github.com/TacticalLaptopBag/resistance-citadel), which would be the GUI frontend.
-
-Yes, the names are Half-life 2 references.
-They might not really make a lot of sense (Resistance is made up of Combine things?), but they just sound cool.
